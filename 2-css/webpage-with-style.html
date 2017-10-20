@@ -26,18 +26,28 @@
         .first-section {
             background: lightgreen;
             width: 30%;
-            float: right;
+            height: 1000px;
+            position: absolute;
+            left: 300px;
+            top: 200px;
+
         }
 
         .body {
             background: rgb(255, 255, 117);
             width: 30%;
-            float: left;
+            position: fixed;
+
+
+
+
         
         }
-        .clear-float{
-            clear: both;
+        .BB {
+            position: fixed;
+            left: 300px;
         }
+
     </style>
 </head>
 
@@ -54,8 +64,8 @@
         </p>
         </p>
     </div>
-<div class="clear-float"></div>
-    <p>Third Paragraph</p>
+
+    <div class="BB">Third Paragraph</div>
     
 </body>
 
